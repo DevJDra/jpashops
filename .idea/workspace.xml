@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcd40c7-4483-43c1-861e-d3b16374b531" name="Changes" comment="2022-07-26 실전예제3 - 다양한 연관관계 매핑">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Movie.java" afterDir="false" />
+    <list default="true" id="6fcd40c7-4483-43c1-861e-d3b16374b531" name="Changes" comment="2022-07-31 실전예제4 - 상속관계매핑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +37,9 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -66,7 +59,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ahn/Workspace/ex1-hello-jpa"
+    "last_opened_file_path": "/home/ahn/Workspace/ex1-hello-jpa",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +101,11 @@
       <workItem from="1658325993198" duration="1316000" />
       <workItem from="1658404217711" duration="2361000" />
       <workItem from="1658835444792" duration="1902000" />
-      <workItem from="1659255020717" duration="996000" />
+      <workItem from="1659255020717" duration="2933000" />
+      <workItem from="1659357442182" duration="818000" />
+      <workItem from="1659440249961" duration="503000" />
+      <workItem from="1659447444368" duration="307000" />
+      <workItem from="1659773399578" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="2022-07-09 요구사항 분석과 기본매핑">
       <created>1657370013159</created>
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658837150269</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022-07-31 실전예제4 - 상속관계매핑">
+      <created>1659256128714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659256128714</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +163,7 @@
     <MESSAGE value="2022-07-09 요구사항 분석과 기본매핑" />
     <MESSAGE value="2022-07-20 연관관계 매핑 시작" />
     <MESSAGE value="2022-07-26 실전예제3 - 다양한 연관관계 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-07-26 실전예제3 - 다양한 연관관계 매핑" />
+    <MESSAGE value="2022-07-31 실전예제4 - 상속관계매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-07-31 실전예제4 - 상속관계매핑" />
   </component>
 </project>

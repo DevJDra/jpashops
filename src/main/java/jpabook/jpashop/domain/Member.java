@@ -56,4 +56,6 @@ public class Member extends BaseEntity{
     public void setZipcode(String zipcode) {
         this.zipcode = zipcode;
     }
+
+
 }
